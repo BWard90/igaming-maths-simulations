@@ -1,6 +1,6 @@
 # iGaming Mathematics & Probability Simulations
 
-A ccouple of lightweight Python scripts designed to model applied probability, 
+A couple of lightweight Python scripts designed to model applied probability, 
 verify statistical convergence, and simulate core casino game mechanics. 
 
 ### Contents
