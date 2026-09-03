@@ -48,7 +48,7 @@ For example, (Cleo, Cleo, Cleo, scar, scar) could be 3 wilds AND 5 scarabs, and 
 which would then cause problems when later evaluating rtp etc. I also learned that I had to be much more precise with my logic, as I later realised
 that (Cleo, Cleo, Cleo, scar, Cleo) would be 5 scarabs too, which was much harder to notice.
 
-Below is a function that works, but it doesn't feel efficient. Having rreflected on this, I think one definite improvement would set the logic so that
+Below is a function that works, but it doesn't feel efficient. Having reflected on this, I think one definite improvement would be to set the logic so that
 an iteration stops after it knows that the remaining reels will not change the outcome. For example, if the first reel is "K" and the second reel is "10",
 there is no reason to check the remaining reels as this will not appear in the pay table. This would save a lot of time processing as there are 33.21 million
 combinations, of which nearly approximately 31.8 million do not pay. Definitely something I would look to implement when I return to this problem.
