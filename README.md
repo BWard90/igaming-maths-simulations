@@ -10,7 +10,7 @@ Simulates a classic 3-reel slot game to calculate Hit Frequency and Return to Pl
 Simulates large-scale iterations (e.g. 1,000,000 rolls) of custom dice setups to observe sample outcome distributions.
 
 **`cleopatra_combos_problem.py`**
-I was reading an article about deconstructing Cleopatra (which can be found here: https://wizardofodds.com/games/slots/cleopatra/) whilst learning about slot machines. After the winning combinations tables, the author () writes: "Be warned that the math is tedious and error-prone to calculate these combinations by hand. If you're up to the challenge and you can code, then I recommend coding five nested loops and cycle through all 30^4*41=33,210,000 possible outcomes."
+I was reading an article about deconstructing Cleopatra (which can be found here: https://wizardofodds.com/games/slots/cleopatra/) whilst learning about slot machines. After the winning combinations tables, the author (Michael Shackleford) writes: "Be warned that the math is tedious and error-prone to calculate these combinations by hand. If you're up to the challenge and you can code, then I recommend coding five nested loops and cycle through all 30^4*41=33,210,000 possible outcomes."
 
 I decided that I wanted to give this a go. The result is my cleopatra_combos_problem script. The aim was to see if I could create a function that would iterate over all of the possible combinations and output a frequency table of all paying lines, similar to the tables presented in the article.
 
